@@ -11,7 +11,7 @@ function randomizer () {
 
   if (userGuess === randomNumber) {
     document.getElementById('answer').innerHTML = 'You win!'
-  } 
+  }
   if (userGuess !== randomNumber) {
     document.getElementById('answer').innerHTML = 'Try again.'
   }
